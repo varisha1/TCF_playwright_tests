@@ -1,0 +1,14 @@
+12:31:02 - INFO - Starting valid login test
+12:31:09 - INFO - Valid login successful, dashboard verified
+12:31:17 - INFO - Testing invalid login | Email='wrong@gmail.com' Password='varishaalee12345'
+12:31:22 - INFO - Negative login error shown: 'Incorrect email or password'
+12:31:37 - INFO - Testing invalid login | Email='varishaalee3271@gmail.com' Password='Wrong@123'
+12:31:46 - INFO - Negative login error shown: 'Incorrect email or password'
+12:32:00 - INFO - Testing invalid login | Email='wrong@gmail.com' Password='Wrong@123'
+12:32:08 - INFO - Negative login error shown: 'Incorrect email or password'
+12:32:21 - INFO - Testing invalid login | Email='' Password='varishaalee12345'
+12:32:35 - INFO - Negative login error shown: 'Email is required'
+12:32:47 - INFO - Testing invalid login | Email='varishaalee3271@gmail.com' Password=''
+12:33:06 - INFO - Negative login error shown: 'Password is required'
+12:33:19 - INFO - Testing invalid login | Email='' Password=''
+12:33:31 - INFO - Negative login error shown: 'Email is required'
