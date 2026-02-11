@@ -1,2 +1,6 @@
+reports/
+screenshots/
+report.html
+venv/
+__pycache__/
 .env
-playwright.config
