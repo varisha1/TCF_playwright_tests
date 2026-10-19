@@ -44,7 +44,7 @@ def test_valid_login(page):
     "email,password,expected_error",
     [
         (env("INVALID_EMAIL"), env("VALID_PASSWORD"), "Incorrect email or password"),
-        (env("VALID_EMAIL"), env("INVALID_PASSWORD"), "Incorrect email or password"),
+        (env("VALID_EMAIL"), env("VALID_PASSWORD"), "Incorrect email or password"),
         (env("INVALID_EMAIL"), env("INVALID_PASSWORD"), "Incorrect email or password"),
         ("", env("VALID_PASSWORD"), "Email is required"),
         (env("VALID_EMAIL"), "", "Password is required"),
